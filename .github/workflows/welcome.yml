@@ -3,6 +3,8 @@ name: Welcome New Contributors
 on:
   pull_request:
     types: [opened]
+    branches:
+      - master  # Triggers only for PRs targeting master
 
 jobs:
   greet:
